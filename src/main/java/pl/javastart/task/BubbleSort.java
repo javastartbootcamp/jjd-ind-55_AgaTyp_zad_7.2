@@ -15,7 +15,7 @@ public class BubbleSort {
                     int nextNo = inputArray[i + 1];
 
                     inputArray[i] = nextNo;
-                    inputArray[i + 1] =prevNo;
+                    inputArray[i + 1] = prevNo;
                     swaped = true;
                 }
                 counter += 1;
